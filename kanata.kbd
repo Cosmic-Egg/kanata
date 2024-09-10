@@ -69,7 +69,7 @@ configuration entries.
 )
 (deflayer arrows
       _ _ _ _ _ _ _ _ _ _
- @cap _ _ _ @osm_ctl _ left down up right _
+ @cap _ @osm_alt @osm_sft @osm_ctl _ left down up right _
       _ _ _ _ _ _ _ _ _ _
       _
 )
@@ -78,6 +78,8 @@ configuration entries.
 (defalias
   ;;cap (tap-hold-press 200 200 caps lctl)
   osm_ctl (one-shot 500 lctl)
+  osm_sft (one-shot 500 lsft)
+  osm_alt (one-shot 500 lalt)
   cap (tap-hold-press 200 200 @osm_ctl (layer-toggle arrows))
   spc (tap-hold-press 200 200 spc (layer-toggle arrows))
 )
