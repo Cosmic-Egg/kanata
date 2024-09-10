@@ -67,7 +67,7 @@ configuration entries.
       _ _ _ _ _ _ _ _ _ _
       @spc
 )
-(deflayer arrows
+(deflayer nav
       _ _ _ _ _ _ _ _ _ _
  @cap _ @osm_alt @osm_sft @osm_ctl _ left down up right _
       _ _ _ _ _ _ _ _ _ _
@@ -80,6 +80,6 @@ configuration entries.
   osm_ctl (one-shot 500 lctl)
   osm_sft (one-shot 500 lsft)
   osm_alt (one-shot 500 lalt)
-  cap (tap-hold-press 200 200 @osm_ctl (layer-toggle arrows))
-  spc (tap-hold-press 200 200 spc (layer-toggle arrows))
+  cap (tap-hold-press 200 200 @osm_ctl (layer-toggle nav))
+  spc (tap-hold-press 200 200 spc (layer-toggle nav))
 )
