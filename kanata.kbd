@@ -58,20 +58,20 @@ configuration entries.
       q w e r t y u i o p
  caps a s d f g h j k l ; 
       z x c v b n m , . /
-      spc
+      lsft lctl spc
 )
 
 (deflayer default
       _ _ _ _ _ _ _ _ _ _
  @cap _ _ _ _ _ _ _ _ _ _
       _ _ _ _ _ _ _ _ _ _
-      @spc
+      @osm_sft @osm_ctl @spc
 )
 (deflayer nav
+      _ _ _ _ _ _ _                          up   _    _
+ @cap _ @osm_alt @osm_sft @osm_ctl _ _ left down right _
       _ _ _ _ _ _ _ _ _ _
- @cap _ @osm_alt @osm_sft @osm_ctl _ left down up right _
-      _ _ _ _ _ _ _ _ _ _
-      _
+      _ _ _
 )
 
 
