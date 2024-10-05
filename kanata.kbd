@@ -62,9 +62,9 @@ configuration entries.
 )
 
 (deflayer default
-      _ _ _ _ _ _ _ _ _ _
- @cap _ _ _ _ _ _ _ _ _ _
-      _ _ _ _ _ _ _ _ _ _
+      _ _ j _ _ _ _ _ _ _
+ @cap _ _ _ _ m n e _ _ _
+      _ _ _ _ k h _ _ _ _
       @spc
 )
 (deflayer arrows
