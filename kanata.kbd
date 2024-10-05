@@ -62,17 +62,10 @@ configuration entries.
 )
 
 (deflayer default
-<<<<<<< HEAD
       _ _ j _ _ _ _ _ _ _
- @cap _ _ _ _ m n e _ _ _
-      _ _ _ _ k h _ _ _ _
-      @spc
-=======
-      _ _ _ _ _ _ _ _ _ _
- @cap _ _ _ _ _ _ _ _ _ _
-      _ _ _ _ _ _ _ _ _ _
+ @cap _ _ _ _ _ m n e _ _
+      _ _ _ _ _ k h _ _ _
       @osm_sft @osm_ctl @spc
->>>>>>> 33ad74e87f172ed705a278d3f3e6cbd833e3936d
 )
 (deflayer nav
       _ _ _ _ _ _ _                          up   _    _
