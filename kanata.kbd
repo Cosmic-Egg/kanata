@@ -65,7 +65,7 @@ configuration entries.
       _ _ j _ _ _ _ _ _ _
  @cap _ _ _ _ _ m n e _ _
       _ _ _ _ _ k h _ _ _
-      @osm_sft @osm_ctl @spc
+      @osm_sft @osm_ctl spc
 )
 (deflayer nav
       _ _ _ _ _ _ _                          up   _    _
